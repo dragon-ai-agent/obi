@@ -195,3 +195,4 @@ Your Pull Request will be automatically tested. If there are problems, we will u
 The easiest way to edit our `src/ontology/template/` files is with Excel. Unfortunately Excel has some idiosyncratic rules for quoting cell values, and on macOS [uses old line endings](http://developmentality.wordpress.com/2010/12/06/excel-2008-for-macs-csv-bug/). Both these things make our diffs messy and confusing.
 
 For clean diffs, we also like to keep out templates sorted by ID. The `make sort` command will fix line endings and sorting by running all the templates through a Python script.
+
